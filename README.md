@@ -1,6 +1,6 @@
 # Azure Pipelines meet Jest
 
-This post explains How to integrate the tremendous test runner [Jest](https://jestjs.io/) with the continuous integration platform [Azure Pipelines](https://azure.microsoft.com/en-gb/services/devops/pipelines/?nav=min).  Perhaps we're setting up a new project and we've created a new React app with [Create React App](https://create-react-app.dev/).  This ships with Jest support out of the box. How do we get that plugged into Pipelines such that:
+This post explains how to integrate the tremendous test runner [Jest](https://jestjs.io/) with the continuous integration platform [Azure Pipelines](https://azure.microsoft.com/en-gb/services/devops/pipelines/?nav=min).  Perhaps we're setting up a new project and we've created a new React app with [Create React App](https://create-react-app.dev/).  This ships with Jest support out of the box. How do we get that plugged into Pipelines such that:
 
 1. Tests run as part of our pipeline
 2. A failing test fails the build
